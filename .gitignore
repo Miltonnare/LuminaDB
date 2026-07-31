@@ -1,0 +1,48 @@
+# Build directories
+build/
+out/
+bin/
+lib/
+cmake-build-*/
+
+# Compiled object files
+*.o
+*.obj
+*.d
+*.o.d
+
+# Compiled libraries & executables
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.ilk
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# Editor / IDE settings
+.vs/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.filters
+
+# Fuzzing & test outputs
+fuzz_output/
+*.log
+*.db
+*.wal
+*.db.wal
+*seed_corpus.zip
+seed_corpus/
